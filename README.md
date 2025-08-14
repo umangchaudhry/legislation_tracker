@@ -80,7 +80,8 @@ ai-legislation-tracker/
 ### Notes on Updating Scripts
 - **Dynamic Processing**: The updating scripts are written to avoid re-processing bills that have already been handled or re-pulling data that is already cached.  
 - **Individual Runs**: Each script inside `data_updating_scripts/` can be run independently if targeted updates are needed (e.g., regenerating summaries, fixing PDFs, or refreshing bill statuses).  
-- **Main Update Pipeline**: `update_data.py` is the central entry point that coordinates updates across the dataset.  
+- **Main Update Pipeline**: `update_data.py` is the central entry point that coordinates updates across the dataset.
+- **Pushing Data to GitHub**: Data files are large and require `git lfs` to be configured. Ensure `git lfs` is installed ```brew install git-lfs```, configure `lfs` ```git lfs install``` within the repo, track all data files ```git lfs track "data/**"``` add all files and push. 
 
 ---
 
