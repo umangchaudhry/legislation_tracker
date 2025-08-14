@@ -1,0 +1,7 @@
+/.DS_Store
+/.env
+/.streamlit
+/data_updating_scripts/logs
+/data_updating_scripts/__pycache__
+/__pycache__
+/app_logs
