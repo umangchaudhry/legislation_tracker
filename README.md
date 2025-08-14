@@ -99,4 +99,4 @@ ai-legislation-tracker/
   - [Harshita Ahuja](https://github.com/Harshitaahuja23), DS Masters Student, Vanderbilt University  
   - [Margot Zhao](https://github.com/MargotZhao), DS Masters Student, Vanderbilt University  
 
-For inquiries, please reach out to the Project Lead or Principal Investigator.  
+For inquiries or issues, please reach out to the Project Lead or Principal Investigator.  
