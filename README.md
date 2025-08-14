@@ -78,6 +78,7 @@ ai-legislation-tracker/
 ```
 
 ### Notes on Updating Scripts
+- **Testing Mode**: The updateing scripts have a testing mode built in. Change the `TESTING_MODE` flag in `/data_updating_scripts/get_data.py` to `True` to only pull 3 bills from CA in 2023. `FULL_TESTING_MODE` allows you to pull all bills from CA in 2023. 
 - **Dynamic Processing**: The updating scripts are written to avoid re-processing bills that have already been handled or re-pulling data that is already cached.  
 - **Individual Runs**: Each script inside `data_updating_scripts/` can be run independently if targeted updates are needed (e.g., regenerating summaries, fixing PDFs, or refreshing bill statuses).  
 - **Main Update Pipeline**: `update_data.py` is the central entry point that coordinates updates across the dataset.
