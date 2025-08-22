@@ -75,6 +75,8 @@ ai-legislation-tracker/
 │   └── PROMPTS/                 # Prompt templates
 │       ├── bill_summary_prompt.py
 │       └── suggested_questions_prompt.md
+
+To run this tool, first clone the repository. Note that the data present on the repository will not be pulled unless you have Git LFS installed. Once you have cloned the repository, please also run `git lfs pull` to pull data on this repository, or download new data using the instructions in the following section. 
 ```
 
 ### Notes on Updating Scripts
